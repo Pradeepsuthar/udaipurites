@@ -1,21 +1,23 @@
-
-
-.card-header  img {
+.card-header  .category-img {
     max-width: 10em;
     max-height: 10em;
 }
 
-/* .card-body h5{
-    font-size: 15px;
-} */
-
 .card-title {
     font-size: 15px;
     text-decoration: none;
-  }
+}
   
-  @media (max-width: 1200px) {
+@media (max-width: 1200px) {
     .card-title {
-      font-size: calc(10px + 1vw);
+        font-size: calc(10px + 1vw);
     }
-  }
+}
+
+.banner-bg{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190220/ourmid/pngtree-memphis-contrast-color-blue-geometric-image_8793.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
