@@ -1,3 +1,6 @@
+button:focus{
+    outline: none;
+}
 /* Banner section-1 */
 .banner-bg{
     background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190220/ourmid/pngtree-memphis-contrast-color-blue-geometric-image_8793.jpg");
@@ -45,4 +48,17 @@
     .square-category-title {
         font-size: calc(10px + 1vw);
     }
+}
+
+
+/* Navbar */
+
+.navbar-search-box{
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 20px 10px;
+    border-radius: 3px;
+}
+.navbar-search-box:focus{
+    outline: 0;
 }
