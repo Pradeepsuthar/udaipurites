@@ -1,6 +1,17 @@
+/* Comman CSS */
 button:focus{
     outline: none;
 }
+.row .col{
+    padding-bottom: 10px;
+}
+@media (max-width: 480px) {
+    .row .col{
+        padding: 5px;
+        padding-bottom: 20px;
+    }
+}
+
 /* Banner section-1 */
 .banner-bg{
     background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190220/ourmid/pngtree-memphis-contrast-color-blue-geometric-image_8793.jpg");
@@ -26,7 +37,7 @@ button:focus{
     }
 }
 
-/* Categories section-1 */
+/* Categories section-2 */
 .card-header  .square-category-img {
     max-width: 20em;
     height: 280px;
@@ -52,7 +63,6 @@ button:focus{
 
 
 /* Navbar */
-
 .navbar-search-box{
     width: 100%;
     font-size: 15px;
