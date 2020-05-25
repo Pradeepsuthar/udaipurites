@@ -22,3 +22,26 @@
         font-size: calc(10px + 1vw);
     }
 }
+
+/* Categories section-1 */
+.card-header  .square-category-img {
+    max-width: 20em;
+    height: 250px;
+}
+
+@media (max-width: 1200px) {
+    .card-header  .square-category-img {
+        height: 100px;
+    }
+}
+
+.square-category-title {
+    font-size: 16px;
+    text-decoration: none;
+}
+    
+@media (max-width: 1200px) {
+    .square-category-title {
+        font-size: calc(10px + 1vw);
+    }
+}
