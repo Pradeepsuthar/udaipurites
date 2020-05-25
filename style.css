@@ -1,10 +1,19 @@
+/* Banner section-1 */
+.banner-bg{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190220/ourmid/pngtree-memphis-contrast-color-blue-geometric-image_8793.jpg");
+    background-color: #cccccc; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+/* Categories section-1 */
 .card-header  .category-img {
-    max-width: 10em;
-    max-height: 10em;
+    max-width: 20em;
+    max-height: 20em;
 }
 
 .card-title {
-    font-size: 15px;
+    font-size: 25px;
     text-decoration: none;
 }
   
@@ -12,12 +21,4 @@
     .card-title {
         font-size: calc(10px + 1vw);
     }
-}
-
-.banner-bg{
-    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190220/ourmid/pngtree-memphis-contrast-color-blue-geometric-image_8793.jpg"); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
 }
