@@ -9,9 +9,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
-    <title>Udaipurites | Products</title>
+    <title>Udaipurites | Product Details</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product.css">
+
+    <!-- font-awesome icons -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -122,23 +126,69 @@
 
 
     <!-- Products Section -->
-    <section class="jumbotron jumbotron-fluid my-0 bg-light">
-        <div class="container px-lg-0 mt-0">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-                <div class="col mb-2 px-2">
-                    <div class="card">
-                        <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11217924/2020/4/22/c6d2ce6c-2325-4a2c-bd57-fa146e636d9f1587551428771-House-of-Pataudi-Men-Off-White--Khaki-Woven-Design-Straight--1.jpg"
-                            class="card-img-top product-thumbnail" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="product-detail.html" class="btn btn-primary">View</a>
+    <section class="p-3 mt-0 mb-5">
+        <div class="container-fliud">
+            <div class="wrapper row">
+                <!-- Start Product Image Container -->
+                <div class="preview col-md-6">
+
+                    <div class="preview-pic tab-content text-center">
+                        <div class="tab-pane active" id="pic-1"><img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1979305/2018/4/3/11522753438599-HIGHLANDER-Men-Navy-Slim-Fit-Checked-Casual-Shirt-221522753438432-1.jpg" /></div>
+                        <div class="tab-pane" id="pic-2"><img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1979305/2018/4/3/11522753438584-HIGHLANDER-Men-Navy-Slim-Fit-Checked-Casual-Shirt-221522753438432-2.jpg" /></div>
+                        <div class="tab-pane" id="pic-3"><img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1979305/2018/4/3/11522753438567-HIGHLANDER-Men-Navy-Slim-Fit-Checked-Casual-Shirt-221522753438432-3.jpg" /></div>
+                        <div class="tab-pane" id="pic-4"><img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1979305/2018/4/3/11522753438553-HIGHLANDER-Men-Navy-Slim-Fit-Checked-Casual-Shirt-221522753438432-4.jpg" /></div>
+                        <div class="tab-pane" id="pic-5"><img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1979305/2018/4/3/11522753438538-HIGHLANDER-Men-Navy-Slim-Fit-Checked-Casual-Shirt-221522753438432-5.jpg" /></div>
+                    </div>
+                    <ul class="preview-thumbnail nav nav-tabs">
+                        <li class="active"><a data-target="#pic-1" data-toggle="tab"><img
+                                    src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1979305/2018/4/3/11522753438599-HIGHLANDER-Men-Navy-Slim-Fit-Checked-Casual-Shirt-221522753438432-1.jpg" /></a></li>
+                        <li><a data-target="#pic-2" data-toggle="tab"><img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1979305/2018/4/3/11522753438584-HIGHLANDER-Men-Navy-Slim-Fit-Checked-Casual-Shirt-221522753438432-2.jpg" /></a>
+                        </li>
+                        <li><a data-target="#pic-3" data-toggle="tab"><img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1979305/2018/4/3/11522753438567-HIGHLANDER-Men-Navy-Slim-Fit-Checked-Casual-Shirt-221522753438432-3.jpg" /></a>
+                        </li>
+                        <li><a data-target="#pic-4" data-toggle="tab"><img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1979305/2018/4/3/11522753438553-HIGHLANDER-Men-Navy-Slim-Fit-Checked-Casual-Shirt-221522753438432-4.jpg" /></a>
+                        </li>
+                        <li><a data-target="#pic-5" data-toggle="tab"><img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1979305/2018/4/3/11522753438538-HIGHLANDER-Men-Navy-Slim-Fit-Checked-Casual-Shirt-221522753438432-5.jpg" /></a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- End Product Image Container -->
+
+                <!-- Start Product Details Container -->
+                <div class="details col-md-6">
+                    <h3 class="product-title">men's shoes fashion</h3>
+                    <div class="rating">
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         </div>
+                        <span class="review-no">41 reviews</span>
+                    </div>
+                    <p class="product-description">Suspendisse quos? Tempus cras iure temporibus? Eu laudantium cubilia
+                        sem sem! Repudiandae et! Massa senectus enim minim sociosqu delectus posuere.</p>
+                    <h4 class="price">current price: <span>$180</span></h4>
+                    <p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>
+                    <h5 class="sizes">sizes:
+                        <span class="size" data-toggle="tooltip" title="small">s</span>
+                        <span class="size" data-toggle="tooltip" title="medium">m</span>
+                        <span class="size" data-toggle="tooltip" title="large">l</span>
+                        <span class="size" data-toggle="tooltip" title="xtra large">xl</span>
+                    </h5>
+                    <h5 class="colors">colors:
+                        <span class="color orange not-available" data-toggle="tooltip" title="Not In store"></span>
+                        <span class="color green"></span>
+                        <span class="color blue"></span>
+                    </h5>
+                    <div class="action">
+                        <button class="add-to-cart btn btn-default" type="button">add to cart</button>
+                        <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
                     </div>
                 </div>
-
-
+                <!-- End Product Details Container -->
             </div>
         </div>
     </section>
