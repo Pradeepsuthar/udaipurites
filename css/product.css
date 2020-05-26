@@ -101,7 +101,7 @@
 .price,
 .sizes,
 .colors {
-	text-transform: UPPERCASE;
+	text-transform: none;
 	font-weight: bold;
 }
 
@@ -109,6 +109,19 @@
 .price span {
 	color: #85ad00;
 }
+
+.price strong {
+  color: #444446;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.price strike {
+  font-size: 18px;
+  margin: 40px 10px 40px;
+}
+
+
 
 .product-title,
 .rating,
@@ -137,9 +150,9 @@
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 10px;
-	height: 2em;
-	width: 2em;
-	border-radius: 2px;
+	height: 1em;
+	width: 1em;
+	border-radius: 50%;
 }
 
 .color:first-of-type {
@@ -171,7 +184,7 @@
 
 .not-available:before {
 	font-family: fontawesome;
-	content: "\f00c";
+	content: "";
 	color: #fff;
 }
 
