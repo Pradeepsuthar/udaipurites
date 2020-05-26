@@ -171,6 +171,20 @@
 	transition: background .3s ease;
 }
 
+.wishlist-btn{
+  background: #fff;
+	padding: 10px 25px 10px;
+	border: 1px solid rgb(207, 207, 207);
+	text-transform: UPPERCASE;
+	font-weight: bold;
+	color: #343a40;
+	-webkit-transition: background .3s ease;
+	transition: background .3s ease;
+}
+.wishlist-btn:hover{
+	border: 1px solid #343a40;
+}
+
 .add-to-cart:hover,
 .like:hover {
 	background: rgb(253, 29, 81);
