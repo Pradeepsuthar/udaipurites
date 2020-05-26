@@ -7,6 +7,7 @@ owl.owlCarousel({
     autoplay: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: false,
+    animateOut: 'fadeOut'
 });
 $('.play').on('click', function () {
     owl.trigger('play.owl.autoplay', [1000])
